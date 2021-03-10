@@ -1,4 +1,4 @@
-import { Divider } from "react-native-elements";
+import Navbar from './Navbar'
 import Footer from "./Footer";
 
 export default function Layout({children}) {

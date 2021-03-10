@@ -2,16 +2,18 @@ import Head from 'next/head'
 
 
 
-export default function Contact() {
+export default function CV() {
   return (
     <div >
       <Head>
-        <title>Contact</title>
+        <title>CV</title>
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
    
-    <h1>Contact</h1>
+    <h1>CV</h1>
+
+    
 
       
     </div>

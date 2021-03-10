@@ -1,27 +1,24 @@
-import styles from 'styled-components'
+import styled from 'styled-components';
+import Link from 'next/link';
 
-const FooterSection = styled.div ` 
-background: #000;
-color: #fff;
-height: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-`
+const FooterSection = styled.div`
+  background: #000;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
-import React from 'react'
+const Footer = () => {
+  return (
+    <FooterSection>
+      <p>Ian Hancock 2021 All Rights Reserved</p>
+    </FooterSection>
+  );
+};
 
-const Footer =() => {
-    return (
-        
-            <FooterSection>
-                <p>Ian Hancock 2021 All Rights Reserved</p>
-            </FooterSection>
-    
-    )
-}
-
-export default Footer
+export default Footer;
 
 
 

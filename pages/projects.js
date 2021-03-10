@@ -2,16 +2,16 @@ import Head from 'next/head'
 
 
 
-export default function Contact() {
+export default function Project() {
   return (
     <div >
       <Head>
-        <title>Contact</title>
+        <title>Projects</title>
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
    
-    <h1>Contact</h1>
+    <h1>Projects</h1>
 
       
     </div>

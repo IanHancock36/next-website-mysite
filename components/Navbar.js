@@ -20,7 +20,7 @@ const Navbar = () => {
     <Nav>
       <div>
         <Link href='/' passHref>
-          <StyledLink>NXT</StyledLink>
+          <StyledLink>Ian Hancock</StyledLink>
         </Link>
       </div>
       <div>
@@ -30,9 +30,16 @@ const Navbar = () => {
         <Link href='/about' passHref>
           <StyledLink>About</StyledLink>
         </Link>
+        <Link href='/projects' passHref>
+          <StyledLink>Projects</StyledLink>
+        </Link>
+        <Link href='/cv' passHref>
+          <StyledLink>CV</StyledLink>
+        </Link>
         <Link href='/contact' passHref>
           <StyledLink>Contact</StyledLink>
         </Link>
+        
       </div>
     </Nav>
   );
