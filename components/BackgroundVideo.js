@@ -1,15 +1,17 @@
-import React from 'react'
-import backgroundVideo from './video/backgroundVideo.mp4'
+// import React from 'react'
+// import styled from 'styled-components'
 
-const BackgroundVideo =() => {
+// //const VidStyle = styled.vidstyle `
+
+
+
+// const BackgroundVideo =() => {
     
-    return (
-        <div>
-            <video autoPlay loop muted id="video">
-                <source src ={backgroundVideo} type = 'video/mp4'/>
-            </video>
-        </div>
-    )
-}
+//     return (
+//         <div>
+//             <video src='./video/backgroundVideo.mp4' autoPlay loop muted />
+//         </div>
+//     )
+// }
 
-export default BackgroundVideo
+// export default BackgroundVideo

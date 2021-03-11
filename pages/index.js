@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styled from 'styled-components';
 
+
 const Hero = styled.div ` 
  height: 90vh;
  display: flex;
@@ -25,8 +26,14 @@ export default function Home() {
       
       </Head>
       <Hero>
-        <Heading>Next</Heading>
+        <Heading>
+        {/* <div className ="video-container"> */}
+          {/* <video src ="/video/backgroundVideo.mp4" autoPlay loop muted/> */}
+        {/* </div> */}
         
+      
+        </Heading>
+        <video src ="/video/backgroundVideo.mp4" autoPlay loop muted/>
       </Hero>
       <p>Hey there everyone</p>
    
